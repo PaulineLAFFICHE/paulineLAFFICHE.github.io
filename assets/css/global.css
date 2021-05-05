@@ -21,8 +21,8 @@ body { background-color : lightcyan }
 
 body { 
     text-align: center;
-    font-family: sans-serif;
-    background-color: salmon;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
     letter-spacing: -2px;
     margin-bottom: 12px;
     line-height: 1.2;
-    color : blue;
+    color : purple;
 }
 
 
@@ -53,6 +53,13 @@ h3 {
 p {
     font-size: 20px;
     margin-bottom: 16px;
+}
+
+div { background-color: plum ;
+    padding: 12px;
+    border-style: solid;
+    border-color: palevioletred;
+    margin: 32px 0;
 }
 
 a{color : rebeccapurple}
