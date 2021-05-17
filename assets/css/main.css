@@ -111,12 +111,14 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
     padding: 14px 30px;
     display: inline-block;
     line-height: 1;
+    border-width: 2px; border-style: solid; line-height: 1; outline: none;
     font-weight: bold;
     letter-spacing: 1px;
 }
  
 a.button-solid:link, .button-solid:visited {
-    background-color: #ff6501;
+    background-color:rgb(202, 29, 29);
+    border-color :  black ;
     color: #fff;
 } 
  

@@ -353,11 +353,11 @@ header .text-shadow { text-shadow: 2px 2px #222; }
 
 /* Solid buttons */
 .container-btn .btn-solid:any-link {
-    background-color: #ff6501; border-color: #ff6501; color: #fff;
+    background-color: rgb(202, 29, 29); border-color :  rgb(202, 29, 29); color: #fff;
 }
 
 .container-btn :is(.btn-solid:focus, .btn-solid:hover,.btn-solid:active) {
-    background-color: #222; border-color: #222; color: #fff;
+    background-color: #222; border-color:#fff; color: #fff;
 }
 
 
@@ -370,7 +370,7 @@ header .text-shadow { text-shadow: 2px 2px #222; }
     border: solid 2px #222; background-color: #222;  color: #fff;
 } 
 
-.container-btn .btn-ghost i { color: #fff }
+.container-btn .btn-ghost i { color:rgb(202, 29, 29) }
 .container-btn .btn-ghost:focus i, 
 .container-btn .btn-ghost:hover i, 
 .container-btn .btn-ghost:active i { color: #fff } 

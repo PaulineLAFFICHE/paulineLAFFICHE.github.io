@@ -240,7 +240,7 @@
 
 /* background colour */
 .menu-light { 
-	background-color: #ff6501;
+	background-color: red;
 	transition: all .5s ease-in-out;
 }
 
